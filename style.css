@@ -1,0 +1,27 @@
+
+input{
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+.container{
+    background-color: rgba(195, 113, 113, 0.25);
+    box-shadow: 1px 1px 2px black;
+    padding: 50px;
+    border-radius: 20px;
+    position: fixed; 
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#symbol, #uppercase, #lowercase, #numbers:hover{
+    cursor: pointer;
+}
+#message{
+    font-size: 20px;
+    background-color: red;
+    position: fixed;
+    top: 80%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
